@@ -1,0 +1,5 @@
+[ 2025-02-21 15:00:31,539 ] 28 root - INFO - starting with data ingestion
+[ 2025-02-21 15:00:31,539 ] 30 root - INFO - starting with data ingestion
+[ 2025-02-21 15:00:31,575 ] 33 root - INFO - reading the dataset to dataframe
+[ 2025-02-21 15:00:31,589 ] 37 root - INFO - training test split initiated
+[ 2025-02-21 15:00:31,603 ] 42 root - INFO - ingestion of the data is completed

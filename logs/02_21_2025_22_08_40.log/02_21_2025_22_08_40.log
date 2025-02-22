@@ -1,0 +1,52 @@
+[ 2025-02-21 22:08:41,462 ] 26 root - INFO - starting with data ingestion
+[ 2025-02-21 22:08:41,467 ] 30 root - INFO - reading the dataset to dataframe
+[ 2025-02-21 22:08:41,471 ] 34 root - INFO - training test split initiated
+[ 2025-02-21 22:08:41,475 ] 39 root - INFO - end of data ingestion
+[ 2025-02-21 22:08:41,476 ] 50 root - INFO - Starting data validation process...
+[ 2025-02-21 22:08:41,478 ] 56 root - INFO - Validating Train dataset...
+[ 2025-02-21 22:08:41,478 ] 60 root - INFO - Missing values in Train dataset:
+Series([], dtype: int64)
+Percentage:
+Series([], dtype: float64)
+[ 2025-02-21 22:08:41,487 ] 68 root - INFO - Duplicate rows in Train dataset: 0
+[ 2025-02-21 22:08:41,487 ] 72 root - INFO - Data types in Train dataset:
+gender                         object
+race_ethnicity                 object
+parental_level_of_education    object
+lunch                          object
+test_preparation_course        object
+math_score                      int64
+reading_score                   int64
+writing_score                   int64
+dtype: object
+[ 2025-02-21 22:08:41,487 ] 76 root - INFO - Outliers detected in Train dataset:
+math_score       2
+reading_score    2
+writing_score    2
+dtype: int64
+[ 2025-02-21 22:08:41,494 ] 80 root - INFO - Unique values in categorical columns (Train dataset):
+{'gender': 2, 'race_ethnicity': 5, 'parental_level_of_education': 6, 'lunch': 2, 'test_preparation_course': 2}
+[ 2025-02-21 22:08:41,494 ] 56 root - INFO - Validating Test dataset...
+[ 2025-02-21 22:08:41,495 ] 60 root - INFO - Missing values in Test dataset:
+Series([], dtype: int64)
+Percentage:
+Series([], dtype: float64)
+[ 2025-02-21 22:08:41,495 ] 68 root - INFO - Duplicate rows in Test dataset: 0
+[ 2025-02-21 22:08:41,497 ] 72 root - INFO - Data types in Test dataset:
+gender                         object
+race_ethnicity                 object
+parental_level_of_education    object
+lunch                          object
+test_preparation_course        object
+math_score                      int64
+reading_score                   int64
+writing_score                   int64
+dtype: object
+[ 2025-02-21 22:08:41,499 ] 76 root - INFO - Outliers detected in Test dataset:
+math_score       1
+reading_score    1
+writing_score    2
+dtype: int64
+[ 2025-02-21 22:08:41,501 ] 80 root - INFO - Unique values in categorical columns (Test dataset):
+{'gender': 2, 'race_ethnicity': 5, 'parental_level_of_education': 6, 'lunch': 2, 'test_preparation_course': 2}
+[ 2025-02-21 22:08:41,501 ] 82 root - INFO - Data validation process completed successfully.
